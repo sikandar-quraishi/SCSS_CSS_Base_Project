@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 
-const index = () => {
+const Index = () => {
     return (
         <div>
                 <div className="horizental-icon-bar">
@@ -24,4 +24,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index

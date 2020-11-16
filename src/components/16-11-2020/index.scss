@@ -1,3 +1,9 @@
+$font-color: #FFF;
+$background-color: #555;
+$hover-color: #000;
+$active-color: #4CAF50;
+
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +11,7 @@ body {
 
 .horizental-icon-bar {
     width: 100%;
-    background-color: #555;
+    background-color: $background-color;
     overflow: auto;
 
     a {
@@ -14,16 +20,16 @@ body {
         text-align: center;
         padding: 12px 0;
         transition: all 0.3s ease;
-        color: white;
+        color: $font-color;
         font-size: 36px;
 
         &:hover {
-            background-color: #000;
+            background-color: $hover-color;
         }
     }
 
     .active {
-        background-color: #4CAF50;
+        background-color: $active-color;
     }
 }
 
@@ -31,23 +37,23 @@ body {
 
 .verticle-icon-bar {
     width: 90px;
-    background-color: #555;
+    background-color: $background-color;
 
     a {
         display: block;
         text-align: center;
         padding: 16px;
         transition: all 0.3s ease;
-        color: white;
+        color: $font-color;
         font-size: 36px;
 
         &:hover {
-            background-color: #000;
+            background-color: $hover-color;
         }
 
     }
 
     .active {
-        background-color: #4CAF50;
+        background-color: $active-color;
     }
 }
